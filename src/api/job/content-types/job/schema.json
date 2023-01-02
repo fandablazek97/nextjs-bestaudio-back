@@ -57,10 +57,6 @@
         "audios"
       ]
     },
-    "pack": {
-      "type": "string",
-      "required": true
-    },
     "assigmentImage": {
       "type": "media",
       "multiple": false,
@@ -123,6 +119,15 @@
         "videos",
         "audios"
       ]
+    },
+    "pack": {
+      "type": "enumeration",
+      "enum": [
+        "Balíček 1",
+        "Balíček 2",
+        "Balíček 3"
+      ],
+      "required": true
     }
   }
 }
