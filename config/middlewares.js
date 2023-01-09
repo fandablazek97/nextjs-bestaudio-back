@@ -19,7 +19,7 @@ module.exports = ({ env }) => ([
             'data:',
             'blob:',
             'dl.airtable.com',
-            env('AWS_BUCKET') + '.' + env('AWS_REGION') + '.' + amazonaws.com,
+            env('AWS_BUCKET') + '.' + env('AWS_REGION') + '.' + 'amazonaws.com',
           ],
           upgradeInsecureRequests: null,
         },
