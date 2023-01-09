@@ -4,7 +4,7 @@
   "info": {
     "singularName": "job",
     "pluralName": "jobs",
-    "displayName": "Job",
+    "displayName": "Our work",
     "description": ""
   },
   "options": {
@@ -13,10 +13,6 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "brand": {
       "type": "string",
       "required": true
     },
@@ -123,11 +119,53 @@
     "pack": {
       "type": "enumeration",
       "enum": [
-        "Balíček 1",
-        "Balíček 2",
-        "Balíček 3"
+        "Stage 1",
+        "Stage 2",
+        "Premium",
+        "High-End"
       ],
       "required": true
+    },
+    "brand": {
+      "type": "enumeration",
+      "enum": [
+        "Alfa Romeo",
+        "Audi",
+        "BMW",
+        "Citroen",
+        "Dacia",
+        "Dodge",
+        "Fiat",
+        "Ford",
+        "Honda",
+        "Hyundai",
+        "Chevrolet",
+        "Iveco",
+        "Jaguar",
+        "Jeep",
+        "Kia",
+        "Lancia",
+        "Land Rover",
+        "Lamborghini",
+        "Lexus",
+        "Mazda",
+        "Mercedes",
+        "Mini",
+        "Mitsubishi",
+        "Nissan",
+        "Opel",
+        "Peugeot",
+        "Renault",
+        "Saab",
+        "Seat",
+        "Subaru",
+        "Suzuki",
+        "Škoda",
+        "Tesla",
+        "Toyota",
+        "Volkswagen",
+        "Volvo"
+      ]
     }
   }
 }
